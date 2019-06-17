@@ -11,7 +11,8 @@ class Shoe
   end
 
 # BRANDS.uniq ?
-# If brands.include?
+# If BRANDS.find?(brands)
+# If BRANDS.include?(brand)
 
   def cobble
     self.condition = "new"
