@@ -8,8 +8,10 @@ class Shoe
     @brand = brand
      BRANDS << brand
      BRANDS.uniq!
-  # BRANDS.uniq ?
   end
+
+# BRANDS.uniq ?
+# If brands.include?
 
   def cobble
     self.condition = "new"
