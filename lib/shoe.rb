@@ -10,9 +10,10 @@ class Shoe
      BRANDS.uniq!
   end
 
+# not working:
 # BRANDS.uniq ?
-# If BRANDS.find?(brands)
-# If BRANDS.include?(brand)
+# If BRANDS.find?(brands) BRANDS << brand
+# If BRANDS.include?(brand) BRANDS << brand
 
   def cobble
     self.condition = "new"
