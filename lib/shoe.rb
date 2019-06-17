@@ -6,7 +6,6 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    if BRANDS.find(brand)
      BRANDS << brand
   end
 
